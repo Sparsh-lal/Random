@@ -26,7 +26,7 @@ void Better_Approach(vector<int>& a){
     cout << ans << endl;
 }
 
-void Most_Efficient(vector<int>& a){
+void Most_Efficient(vector<int>& a){ // Kadane's Algorithm
     int n = a.size(), ans = 0, sum = 0;
     for(int i=0; i<n; ++i){
         sum = max(a[i], sum + a[i]);
@@ -57,6 +57,7 @@ void solve(){
     cout << "Time taken: " << d2.count() << " microseconds.\n" << endl;
 
     // Most efficient Approach: O(n)
+    // Kadane's Algorithm
     auto s3 = chrono::high_resolution_clock::now();
     cout << "Most efficient approach: ";
     Most_Efficient(a);
