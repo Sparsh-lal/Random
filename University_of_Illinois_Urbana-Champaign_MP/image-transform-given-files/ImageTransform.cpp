@@ -86,6 +86,7 @@ PNG createSpotlight(PNG image, int centerX, int centerY) {
 }
  
 
+
 /**
  * Returns a image transformed to Illini colors.
  *
