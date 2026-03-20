@@ -1,4 +1,4 @@
 .cph
 *.bin
-Tower_Of_Hanoi/binCleaner
-Tower_Of_Hanoi/Bin Cleaner.cpp
+binCleaner
+Bin Cleaner.cpp
