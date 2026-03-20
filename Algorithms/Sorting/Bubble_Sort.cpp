@@ -19,6 +19,8 @@ void solve(){
     vector<int> a(n);
     for(auto& i : a) cin >> i;
 
+    cout << "Bubble Sort in Action" << endl;
+
     cout << "Before Sorting: ";
     for(auto i : a) cout << i << " ";
     cout << endl;
