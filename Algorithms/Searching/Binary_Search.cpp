@@ -1,7 +1,7 @@
 /*
 Assumptions:
-1. The given array 'a', of length n, is already sorted
-2. We need to find the index of z, if it is present in 'a', otherwise return -1
+    1. The given array 'a', of length n, is already sorted
+    2. We need to find the index of z, if it is present in 'a', otherwise return -1
 */
 
 #include <bits/stdc++.h>
